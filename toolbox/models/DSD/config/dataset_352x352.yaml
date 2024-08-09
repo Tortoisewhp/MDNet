@@ -1,0 +1,14 @@
+train_dataset:
+  name: dataset.data_val.PolypObjDataset
+  params:
+    image_root: '/home/wby/Desktop/irseg/seperated_images/'
+    gt_root: '/home/wby/Desktop/irseg/binary_labels/'
+    trainsize: 480
+
+test_dataset:
+  NC4K:
+    name: dataset.data_val.test_dataset
+    params:
+      image_root: '/home/wby/Desktop/irseg/seperated_images/'
+      gt_root: '/home/wby/Desktop/irseg/binary_labels/'
+      testsize: 480
